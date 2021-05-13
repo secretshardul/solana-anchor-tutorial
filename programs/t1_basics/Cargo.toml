@@ -1,12 +1,12 @@
 [package]
-name = "solana-anchor-tutorial"
+name = "t1_basics"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2018"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "solana_anchor_tutorial"
+name = "t1_basics"
 
 [features]
 no-entrypoint = []

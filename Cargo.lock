@@ -733,13 +733,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "solana-anchor-tutorial"
-version = "0.1.0"
-dependencies = [
- "anchor-lang",
-]
-
-[[package]]
 name = "solana-frozen-abi"
 version = "1.6.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -844,6 +837,13 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-xid",
+]
+
+[[package]]
+name = "t1_basics"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
 ]
 
 [[package]]

@@ -6,4 +6,6 @@ target
 
 # Ignore backup files creates by cargo fmt.
 **/*.rs.bk
-    
+
+test-ledger
+.anchor
