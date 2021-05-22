@@ -21,3 +21,21 @@ A test script is automatically created in tests folder.
 - Run all tests using `anchor test`
 - Run specific test using `anchor test tests/t2_accounts.js`
 
+## Program structure
+
+```
+```
+
+## Solala basics
+
+### Data storage
+
+Data is stored on Solana in two ways:
+
+1. Accounts:
+    - They hold persistent arbitary data, similar to files in Linux.
+    - Also contain metadata, which controls write access.
+    - Accounts need to pay a rent otherwise they are purged. Paying tokens above an amount makes the account rent exempt.
+    - Design pattern: Store user data on accounts. Try to keep programs stateless.
+
+2.

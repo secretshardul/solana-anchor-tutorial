@@ -9,4 +9,4 @@ pub mod t1_basics {
 }
 
 #[derive(Accounts)]
-pub struct Initialize {}
+pub struct Initialize {} // No data deserialized since we don't need it

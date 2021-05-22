@@ -847,6 +847,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "t2_accounts_and_args"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+]
+
+[[package]]
 name = "termcolor"
 version = "1.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
